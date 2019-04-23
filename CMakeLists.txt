@@ -27,12 +27,9 @@ atlas_project( WorkDir 1.0 USE AnalysisBase ${AnalysisBase_VERSION} )
 # Set the name of the package:
 atlas_subdir( test-throw )
 
-# Packages that this package depends on
-atlas_depends_on_subdirs( PRIVATE Control/xAODRootAccess )
 
 # Build the test executable:
-atlas_add_executable( test-throw util/test-throw.cxx
-  LINK_LIBRARIES xAODRootAccess )
+atlas_add_executable( test-throw test-throw.cxx )
 
 # Set up grid magic. Atlas uses CPack to package up the local files
 # and submit them to the grid. If you're not looking to run on the

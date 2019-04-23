@@ -19,9 +19,9 @@ Steps to reproduce
 Expected behavior
 -----------------
 
-Should print a backtrace. It does print a stack trace on lxplus. If
-you clone this to lxplus and then run `. setup.sh` and build as above
-you can see for yourself.
+Should print a backtrace. It does print a backtrace on lxplus. If you
+clone this to lxplus and then run `. setup.sh` and build as above you
+can see for yourself.
 
 Actual behavior
 ---------------
