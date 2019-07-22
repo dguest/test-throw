@@ -1,7 +1,7 @@
 Minimal Example of GDB Failure in Atlas Containers
 ==================================================
 
-I tried running this code within the `atlas/analysisbase:21.2.68`
+I tried running this code within the `atlas/analysisbase:21.2.83`
 container, but I'm not sure if anything has changed with more recent
 ones.
 
